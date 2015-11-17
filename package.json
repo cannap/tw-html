@@ -1,0 +1,22 @@
+{
+  "name": "wanted-tuts",
+  "version": "1.0.0",
+  "description": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "soon"
+  },
+  "author": "Marko Bolliger",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-nunjucks-render": "^1.0.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.0"
+  }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document</title>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <script src="https://rawgit.com/jkeyes/baseline/master/baseliner/baseliner.js"></script>
+
+
+
+
+</head>
+
+<body>
+  <header>
+    {% include "partials/navigation.html" %}
+  </header>
+  {% block content %}
+  <!-- page content -->
+  {% endblock %}
+  <section class="section">
+    <div class="container">
+
+      <div class="row">
+        <div id="content" class="col-lg-9">
+          {% include "partials/categories.html" %}
+        </div>
+
+        <div class="col-lg-3">
+          {% include "partials/sidebar.html" %}
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <script>
+    window.onload = function() {
+      baseliner = new Baseliner(8);
+    }
+  </script>
+</body>
+
+</html>
