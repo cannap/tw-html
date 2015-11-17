@@ -1,20 +1,29 @@
+
+
+
+
 @import 'vendor/bootstrap/bootstrap-reboot';
 @import 'vendor/bootstrap/bootstrap-grid';
+@import 'vendor/ionicons.min';
 @import 'vars';
 @import 'typo';
 @import 'components/components';
+
+
 body {
   line-height: 23px;
   font-size: 16px;
   padding-top: 80px;
+  font-family:'Ubuntu', sans-serif;
 }
-.container-fluid {
-  //padding: 0;
-  overflow-x: hidden;
-  @include media-breakpoint-down(xs) {
-    padding: 0 15px;
-  }
+
+.no-padding {
+  padding: 0;
 }
 .section-full--blue {
-  background:$blue;
+  background: $blue;
+}
+
+menu {
+  margin:0;
 }

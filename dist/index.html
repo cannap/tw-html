@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Document</title>
-  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <script src="https://rawgit.com/jkeyes/baseline/master/baseliner/baseliner.js"></script>
-
-
-
-
 </head>
+
+
 
 <body>
   <header>
@@ -43,59 +39,228 @@
 </nav>
 
   </header>
-  
 
-
-  <section class="section">
+  <main class="section">
     <div class="container">
-
       <div class="row">
         <div id="content" class="col-lg-9">
           <div class="categories">
-<ul class="categories__list">
-  <li class="categories__list__item">
-    <a class="categories__link" href="!#">Webdesign</a>
-  </li>
+  <ul class="categories__list">
+    <li class="categories__list__item">
+      <a class="categories__link" href="!#">Webdesign</a>
+    </li>
+    <li class="categories__list__item">
+      <a class="categories__link" href="!#">Webdesign</a>
+    </li>
+
+    <li class="categories__list__item">
+      <a class="categories__link" href="!#">Webdesign</a>
+    </li>
+
+    <li class="categories__list__item">
+      <a class="categories__link" href="!#">Webdesign</a>
+    </li>
+
+    <li class="categories__list__item">
+      <a class="categories__link" href="!#">Webdesign</a>
+    </li>
+    <li class="categories__list__item">
+      <a class="categories__link categories__link--static" href="!#">All</a>
+    </li>
+  </ul>
+</div>
 
 
-  <li class="categories__list__item">
-    <a class="categories__link" href="!#">Webdesign</a>
-  </li>
 
-  <li class="categories__list__item">
-    <a class="categories__link" href="!#">Webdesign</a>
-  </li>
+ <section class="tabs">
+  <ul class="tabs__nav">
+    <li class="tabs__tab tabs__tab">
+      <button class="btn btn--tab tab__btn">Latest Request</button>
+    </li>
+    <li class="tabs__tab">
+      <button class="btn  btn--tab btn--tab--active">Most Wanted</button>
+    </li>
 
-  <li class="categories__list__item">
-    <a class="categories__link" href="!#">Webdesign</a>
-  </li>
-
-  <li class="categories__list__item">
-    <a class="categories__link" href="!#">Webdesign</a>
-  </li>
-
-  <li class="categories__list__item">
-    <a class="categories__link categories__link--static" href="!#">All</a>
-  </li>
+    <li class="tabs__tab">
+      <button class="btn btn--tab">Best Tutorials</button>
+    </li>
+  </ul>
+</section>
 
 
 
-</ul></div>
+
+
+<section class="posts">
+  <article class="post row">
+  <menu class="post__vote col-md-1">
+
+    <!-- If this Buttons pressed becomes .upvoted class -->
+    <button class="btn btn--has-icon post__vote-btn post__vote-btn-up">
+      <i class="ion-chevron-up"></i>
+    </button>
+    <span class="post__vote-score">200</span>
+    <!-- If this Buttons pressed becomes .downvoted class -->
+    <button class="btn btn--has-icon  post__vote-btn post__vote-btn-down">
+      <i class="ion-chevron-down"></i>
+    </button>
+  </menu>
+  <div class="col-md-9">
+    <div class="post--content">
+      <p>
+        Node.js with TypeScript does it give you more structured, maintainable code, force rules on code, or gives more problems due to lack of support and unexpected behaviors?
+      </p>
+    </div>
+    <section class="post__user">
+
+      <div class="post__user--avatar">
+
+        <a href="!#">
+          <img class="" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="Username">
+        </a>
+      </div>
+      <div class="post__user__meta">
+        <a href="!#"  class="post__user__meta--name">Marko Bolliger</a>
+        <time datetime="some" class="post__user__meta--time">
+          20 days ago
+        </time>
+      </div>
+    </section>
+  </div>
+
+</article>
+
+  <article class="post row">
+  <menu class="post__vote col-md-1">
+
+    <!-- If this Buttons pressed becomes .upvoted class -->
+    <button class="btn btn--has-icon post__vote-btn post__vote-btn-up">
+      <i class="ion-chevron-up"></i>
+    </button>
+    <span class="post__vote-score">200</span>
+    <!-- If this Buttons pressed becomes .downvoted class -->
+    <button class="btn btn--has-icon  post__vote-btn post__vote-btn-down">
+      <i class="ion-chevron-down"></i>
+    </button>
+  </menu>
+  <div class="col-md-9">
+    <div class="post--content">
+      <p>
+        Node.js with TypeScript does it give you more structured, maintainable code, force rules on code, or gives more problems due to lack of support and unexpected behaviors?
+      </p>
+    </div>
+    <section class="post__user">
+
+      <div class="post__user--avatar">
+
+        <a href="!#">
+          <img class="" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="Username">
+        </a>
+      </div>
+      <div class="post__user__meta">
+        <a href="!#"  class="post__user__meta--name">Marko Bolliger</a>
+        <time datetime="some" class="post__user__meta--time">
+          20 days ago
+        </time>
+      </div>
+    </section>
+  </div>
+
+</article>
+
+  <article class="post row">
+  <menu class="post__vote col-md-1">
+
+    <!-- If this Buttons pressed becomes .upvoted class -->
+    <button class="btn btn--has-icon post__vote-btn post__vote-btn-up">
+      <i class="ion-chevron-up"></i>
+    </button>
+    <span class="post__vote-score">200</span>
+    <!-- If this Buttons pressed becomes .downvoted class -->
+    <button class="btn btn--has-icon  post__vote-btn post__vote-btn-down">
+      <i class="ion-chevron-down"></i>
+    </button>
+  </menu>
+  <div class="col-md-9">
+    <div class="post--content">
+      <p>
+        Node.js with TypeScript does it give you more structured, maintainable code, force rules on code, or gives more problems due to lack of support and unexpected behaviors?
+      </p>
+    </div>
+    <section class="post__user">
+
+      <div class="post__user--avatar">
+
+        <a href="!#">
+          <img class="" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="Username">
+        </a>
+      </div>
+      <div class="post__user__meta">
+        <a href="!#"  class="post__user__meta--name">Marko Bolliger</a>
+        <time datetime="some" class="post__user__meta--time">
+          20 days ago
+        </time>
+      </div>
+    </section>
+  </div>
+
+</article>
+
+  <article class="post row">
+  <menu class="post__vote col-md-1">
+
+    <!-- If this Buttons pressed becomes .upvoted class -->
+    <button class="btn btn--has-icon post__vote-btn post__vote-btn-up">
+      <i class="ion-chevron-up"></i>
+    </button>
+    <span class="post__vote-score">200</span>
+    <!-- If this Buttons pressed becomes .downvoted class -->
+    <button class="btn btn--has-icon  post__vote-btn post__vote-btn-down">
+      <i class="ion-chevron-down"></i>
+    </button>
+  </menu>
+  <div class="col-md-9">
+    <div class="post--content">
+      <p>
+        Node.js with TypeScript does it give you more structured, maintainable code, force rules on code, or gives more problems due to lack of support and unexpected behaviors?
+      </p>
+    </div>
+    <section class="post__user">
+
+      <div class="post__user--avatar">
+
+        <a href="!#">
+          <img class="" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="Username">
+        </a>
+      </div>
+      <div class="post__user__meta">
+        <a href="!#"  class="post__user__meta--name">Marko Bolliger</a>
+        <time datetime="some" class="post__user__meta--time">
+          20 days ago
+        </time>
+      </div>
+    </section>
+  </div>
+
+</article>
+
+</section>
+
+
+
+
+
 
         </div>
-
         <div class="col-lg-3">
           <div id="sidebar">
-
+Sidebar
 </div>
 
         </div>
-
       </div>
     </div>
-  </section>
-
-
+  </main>
   <script>
     window.onload = function() {
       baseliner = new Baseliner(8);

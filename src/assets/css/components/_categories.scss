@@ -1,10 +1,8 @@
 .categories {
-
-  //Todo: other way to center we dont want a "fixed height here"
   background: $blue;
   position: relative;
   padding: 24px 0;
-
+  margin-bottom:120px;
   &__list {
     list-style: none;
     padding: 0;
@@ -16,7 +14,7 @@
       display: inline-block;
       border-radius: 4px;
       margin-left: 15px;
-      @include media-breakpoint-down(sm) {
+      @include media-breakpoint-down(md) {
         margin-bottom: 10px;
         margin-left: 10px;
       }

@@ -1,0 +1,58 @@
+.post {
+  &__vote {
+    &-score {
+      font-size: 14px;
+      font-family: 'Ubuntu',sans-serif;
+      font-weight: 700;
+    }
+    &-btn {
+      transition: color 0.5s;
+      font-size: 26px;
+      color: $blue;
+      &-up {
+        &.upvoted {
+          color: $green;
+        }
+        &:hover {
+          color: $green;
+        }
+      }
+      &-down {
+        &.downvoted {
+          color: $red;
+        }
+        &:hover {
+          color: $red;
+        }
+      }
+    }
+  }
+  &__user {
+    margin-top: 24px;
+    &--avatar {
+      display: inline-block;
+      a {
+      //  line-height: 16px;
+      }
+      img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        vertical-align: baseline;
+      }
+    }
+    &__meta {
+      margin-left:4px;
+      display: inline-block;
+      &--name {
+        display: block;
+        line-height: 16px;
+      }
+
+      &--time {
+        font-size:14px;
+        color:$grey;
+      }
+    }
+  }
+}
