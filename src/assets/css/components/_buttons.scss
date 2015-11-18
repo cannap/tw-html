@@ -1,15 +1,27 @@
 a.btn {
   display: inline-block;
+
 }
 .btn {
   border: none;
   outline: none;
   font-family: 'Ubuntu', sans-serif;
   padding: 0;
+  &--divider {
+    padding: 6px 14px;
+    border-radius: 4px;
+    background: $grey;
+    color: $white;
+    //border: 20px solid white;
+
+    &:hover {
+      background: $blue;
+      color:$white;
+    }
+  }
   &--has-icon {
     background: none;
     display: block;
-    
   }
   &--tab {
     background: none;
@@ -17,12 +29,10 @@ a.btn {
     line-height: 16px;
     padding-bottom: 12px;
     position: relative;
-
     //Todo: effects!
     &--active,
     &:hover {
       font-weight: 700;
-
       //Todo: hax
       &:after {
         content: " ";
