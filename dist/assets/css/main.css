@@ -3324,6 +3324,9 @@ a.btn {
         bottom: -2px;
         height: 100%; }
 
+.posts {
+  margin-top: 72px; }
+
 .post--trans {
   opacity: 0.5;
   transition: all 0.3s; }
